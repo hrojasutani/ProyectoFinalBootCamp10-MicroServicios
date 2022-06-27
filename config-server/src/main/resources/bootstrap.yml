@@ -1,0 +1,18 @@
+server:
+  port: 8081
+spring:
+  security:
+    user:
+      name: nttdata
+      password: nttd4t4
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ntt-data-microservice/config-repository.git
+          username: nttdata
+          password: nttdata
+          search-paths: /
+          default-label: "main"
+
+
