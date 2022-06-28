@@ -3,17 +3,12 @@ server:
 spring:
   security:
     user:
-      # name: nttdata
-      # password: nttd4t4
+      name: bootcampRoot
+      password: bootcampRoot123
   cloud:
     config:
       server:
         git:
-          # uri: https://github.com/ntt-data-microservice/config-repository.git
           uri: https://github.com/hrojasutani/config_repository.git
-          # username: nttdata
-          # password: nttdata
-          search-paths: /
+          search-paths: config-repository
           default-label: "master"
-
-
