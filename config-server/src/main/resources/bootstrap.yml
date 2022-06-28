@@ -10,9 +10,5 @@ spring:
       server:
         git:
           uri: https://github.com/hrojasutani/config_repository.git
-          username: nttdata
-          password: nttdata
           search-paths: config-repository
           default-label: "master"
-
-
