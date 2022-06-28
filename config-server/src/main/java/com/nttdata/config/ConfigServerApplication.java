@@ -10,7 +10,7 @@ public class ConfigServerApplication {
 
 	public static void main(String[] args) {
 		// SpringApplication.run(ConfigServerApplication.class, args);
-		SpringApplication.run(ProyectoBootcampjpaApplication.class, new String[]{"--server.port=8001"});
+		SpringApplication.run(ConfigServerApplication.class, new String[]{"--server.port=8001"});
 	}
 
 }
